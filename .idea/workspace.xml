@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61013981-6db4-42e7-9958-9c62625e25aa" name="Default Changelist" comment="" />
+    <list default="true" id="61013981-6db4-42e7-9958-9c62625e25aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee/ServiceImpl/CoffeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee/ServiceImpl/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee/controller/Api/CoffeeMachineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee/controller/Api/CoffeeMachineResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee/util/FileStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee/util/FileStorageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/bootstrap/DataBootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/coffeemaciApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/dto/DrinkDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/dto/InventoryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/mapper/DrinkDtoToDrink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/mapper/DrinkToDrinkDtoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/mapper/InventoryDtoToInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/mapper/InventoryToInventoryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/model/Drink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/model/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/repository/DrinkRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/coffee/repository/InventoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coffeemaci-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/coffeemaci-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +40,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JavaFXApplication" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,6 +60,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XZevp8cogtXnXtoTE0MEI8MfZC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,14 +68,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\baris\Desktop\coffeemaci\src\main\java\coffee" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="coffee.controller.Api" />
+      <recent name="coffee.Exception" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="coffee.service" />
+      <recent name="coffee.ServiceImpl" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -59,7 +105,8 @@
       <updated>1581258276916</updated>
       <workItem from="1581258281315" duration="815000" />
       <workItem from="1581259195644" duration="1236000" />
-      <workItem from="1581260461841" duration="930000" />
+      <workItem from="1581260461841" duration="4326000" />
+      <workItem from="1581265272320" duration="43000" />
     </task>
     <servers />
   </component>
@@ -67,26 +114,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="377" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581260762091">
+    <state x="413" y="146" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581263176645">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="377" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1581260762091" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1581261406559">
+    <state x="413" y="146" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1581263176645" />
+    <state x="377" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581264435847">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581261406559" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1581261406559">
+    <state x="377" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1581264435847" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1581265259712">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581261406559" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1581261406558">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581265259712" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1581265259711">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581261406558" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1581261406559">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581265259711" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1581265259711">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581261406559" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581265259711" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1581265259712">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581265259712" />
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1581265157754">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1581265157754" />
     <state x="183" y="25" key="SettingsEditor" timestamp="1581260435043">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -99,9 +154,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="0" y="0" width="737" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1581260862431" />
-    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1581261406588">
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1581265277095">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1581261406588" />
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1581265277095" />
   </component>
 </project>
